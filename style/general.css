@@ -69,17 +69,20 @@ Used icons from "https://ionic.io/ionicons"
     scroll-behavior: smooth;
 }
 
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
 
 body{
     font-family: 'Rubik',sans-serif;
     line-height: 1;
     font-weight: 400;
     color: #555;
+    overflow-x: hidden;
 }
 
-html{
-    font-size: 62.5%;
-}
+
 
 /* ******************************************** */
 /* GENERAL REUSABLE COMPONENTS */
@@ -242,7 +245,8 @@ html{
 .list-item{
     display: flex;
     align-items: center;
-    gap: 1.6rem     ;
+    gap: 1.6rem;
+    line-height: 1.2;
 }
  
 
